@@ -1,0 +1,10 @@
+name = HCPSS Content Export
+description = Provide a view for easy content digestion.
+core = 7.x
+package = Features
+version = 7.x-1.0
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = content_export
+features_exclude[dependencies][ctools] = ctools

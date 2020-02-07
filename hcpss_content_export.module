@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HCPSS Content Export feature.
+ */
+
+include_once 'hcpss_content_export.features.inc';
